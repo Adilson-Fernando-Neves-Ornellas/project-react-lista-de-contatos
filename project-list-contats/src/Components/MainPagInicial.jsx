@@ -75,6 +75,7 @@ const MainPagInicial = () => {
 
   const editar = (id) => {
     setEditado(true);
+    console.log(editado)
     setContatoEditadoId(id);
     const achandoOItem = contatos.find((user) => user.id === id);
 
@@ -160,7 +161,7 @@ const MainPagInicial = () => {
           <ul className="conteinerContatos">
             <h1 className="tituloconteinerContatos">Meus Contatos</h1>
             {contatos.map((item) => (
-              <li className="liContatos">
+              <li className="liContatos" key={item.id}>
                 <div className="idContato">Numero: {item.id}</div>
                 <div className="nomeContato">Nome: {item.nome}</div>
                 <div className="telefoneContato">Telefone: {item.telefone}</div>
