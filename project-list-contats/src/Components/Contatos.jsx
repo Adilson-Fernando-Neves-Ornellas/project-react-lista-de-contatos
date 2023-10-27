@@ -3,6 +3,6 @@ const Contatos = [{
   nome: "Adilson",
   telefone: "22981272033",
   temWhats: Boolean,
-  observacao: "a",
+  observacao: "Estudante SerraTec 2023.2",
 }];
 export {Contatos} ;
