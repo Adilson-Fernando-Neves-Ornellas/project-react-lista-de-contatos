@@ -1,0 +1,125 @@
+.conteiner{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8%;
+}
+.formCadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    gap: 15px;
+}
+.titulo {
+    text-align: center;
+}
+
+.divInputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.divInputsCheckbox{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.inputCheckbox{
+    padding: 6px 0px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    border: 0;
+
+}
+.form-label {
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    padding: 6px 0px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    border: 0;
+}
+
+.conteinerInputSenha {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputSenha {
+    width: 100%;
+    padding: 6px 0px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(57, 57, 57);
+    color: white;
+    border: 0;
+}
+
+.btnMostrarSenha {
+    background-color: rgb(57, 57, 57);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: 0;
+    color: white;
+}
+
+.erroForm {
+    color: #dc3545;
+}
+
+.buttonSubmit {
+    padding: 6px 12px;
+    width: 100%;
+    background-color: #6A0000;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+}
+.tituloconteinerContatos{
+    text-align: center;
+}
+.liContatos{
+    list-style: none;
+}
+.ConteinerButtonsLi{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.buttonsLi{
+    width: 100%;
+    background-color: #6A0000;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+}
